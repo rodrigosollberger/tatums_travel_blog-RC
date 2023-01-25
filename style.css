@@ -1,0 +1,38 @@
+/* setting the font for the whole document */
+* {
+    font-family: Arial;
+}
+
+/* setting a specific font for the H1 and H3 tags */
+h1, h3 {
+    font-family: Geneva;
+}
+
+/* setting a background color to the body */
+body {
+    background-color: cornflowerblue;
+}
+
+/* adding a gradient to the article container */
+article {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+/* stting the background image, formatting it so it doesn't repeat itself, and font color to white */
+header {
+    background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    color: white;
+}
+
+/* changing the color and removing the underlining of the anchor tags */
+a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+/* add the underline back in only when the mouse hovers over the anchor tags */
+a:hover {
+    text-decoration: underline;
+    color: lightgrey;
+}
