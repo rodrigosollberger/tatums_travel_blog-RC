@@ -6,23 +6,31 @@
 /* setting a specific font for the H1 and H3 tags */
 h1, h3 {
     font-family: Geneva;
+    color: white;
+}
+
+#subtittle {
+    text-align: center;
+    padding-bottom: 3px;
 }
 
 /* setting a background color to the body */
 body {
-    background-color: cornflowerblue;
+    background-color: #e5754e;
 }
 
 /* adding a gradient to the article container */
 article {
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to bottom right, #363961, #e5754e);
+    margin: auto;
+    width: 80%;
 }
 
 /* stting the background image, formatting it so it doesn't repeat itself, and font color to white */
 header {
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
-    color: white;
+    color: #fbd580;
 }
 
 /* changing the color and removing the underlining of the anchor tags */
@@ -34,5 +42,18 @@ a {
 /* add the underline back in only when the mouse hovers over the anchor tags */
 a:hover {
     text-decoration: underline;
-    color: lightgrey;
+    color: #c76f50;
+}
+
+img {
+    margin: auto;
+    padding: 2px;
+    border: 2px solid #643a47;
+    display: block;
+}
+
+p {
+    text-align: justify;
+    margin: auto;
+    width: 50%;
 }
