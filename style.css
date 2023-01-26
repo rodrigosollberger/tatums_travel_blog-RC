@@ -7,6 +7,7 @@
 h1, h3 {
     font-family: Geneva;
     color: white;
+    padding: .5em;
 }
 
 #subtittle {
@@ -24,6 +25,8 @@ article {
     background-image: linear-gradient(to bottom right, #363961, #e5754e);
     margin: auto;
     width: 80%;
+    padding: .5em;
+    margin-top: .2em;
 }
 
 /* stting the background image, formatting it so it doesn't repeat itself, and font color to white */
@@ -31,6 +34,7 @@ header {
     background-image: url(https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     color: #fbd580;
+    text-shadow: 1px 1px 1px #fbd580;
 }
 
 /* changing the color and removing the underlining of the anchor tags */
@@ -46,14 +50,25 @@ a:hover {
 }
 
 img {
+    display: block;
+    height: 20%;
     margin: auto;
+    margin-bottom: .3em;
     padding: 2px;
     border: 2px solid #643a47;
-    display: block;
+}
+
+.subheading {
+    border-bottom: 3px solid #643a47;
 }
 
 p {
     text-align: justify;
     margin: auto;
     width: 50%;
+}
+
+header, img, article {
+    border-radius: 0.75em;
+    box-shadow: 5px 5px 5px #fbd580;
 }
